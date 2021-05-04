@@ -153,7 +153,7 @@ If you have any questions, please contact me at ${result.questions}
 
     `;
 
-    fs.writeFile('README.md', readMe, function(err){
+    fs.writeFile('projectREADME.md', readMe, function(err){
         if (!err) {
             console.log('README.md file was created')
         }else {console.log('error $[err}')}
